@@ -1,6 +1,6 @@
 all: udp-client udp-server
 CONTIKI=../../..
-
+MODULES += core/net/mac/tsch
 CFLAGS += -DPROJECT_CONF_H=\"project-conf.h\"
 
 ifdef WITH_COMPOWER
